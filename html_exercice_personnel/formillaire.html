@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="css/formulaire.css" />
+<script type="text/javascript" src="css/etude.js"></script>
+<title>Rasta</title>
+</head>
+<body>
+	<table>
+	<caption>les liste de etudiants IFT</caption>
+		<thead>
+		<tr>
+			<th>Nom</th>
+			<th>Prenom</th>
+			<th>Adresse</th>
+			<th>Province</th>
+		</tr>
+		</thead>
+		<tbody>
+		<tr> 
+			<td> SITRAKA </td>
+			<td> AL-ammiin </td>
+			<td> ivato </td>
+			<td> Antananarivo </td>
+		</tr>
+		<tr> 
+			<td> SITRAKA </td>
+			<td> AL-ammiin</td>
+			<td> ivato </td>
+			<td> Antananarivo </td>
+		</tr>
+		<tr>
+			<td>Carmen</td>
+			<td>33 ans</td>
+			<td>Espagne</td>
+			<td>Espagne</td>
+		</tr>
+		<a href="javascript:alert('Coucou');"> Cliquez ici </a>
+<script type="text/javascript">
+ /* votre code javascript se trouve ici
+c'est deja plus pratique pour un script de plusieurs lignes */
+var age = 18; // on cree la variable pour pouvoir tester
+alert("Vous avez " + age + " ans"); // on affiche les chaines mises
+var message1 = 'Une autre chaine de caracteres';
+var message2 = "C'est une chaine de caracteres ...";
+alert(message1);
+alert(message2);
+var nombre1 = prompt('Premier nombre ?');
+var nombre2 = prompt('Deuxieme nombre ?');
+// on convertit en nombres decimaux et on calcule
+var resultat = parseFloat(nombre1) + parseFloat(nombre2);
+alert("La somme de ces deux nombres est " + resultat);
+
+</script>
+		
+		<tr>
+			<td>Michelle</td>
+			<td>26 ans</td>
+			<td>États-Unis</td>
+			<td>Espagne</td>
+		</tr>
+		<tbody>
+		<tfoot>
+		<tr>
+			<td>LISTE</td>
+			<td>26 </td>
+			<td>États</td>
+			<td>Espa</td>
+		</tr>
+		<tfoot>
+		</table>
+		<table>
+		<tr>
+			<td>
+<form method="post" action="traitement.php">
+<p>
+<label>Votre pseudo</label> : <input type="text"
+name="pseudo" />
+</p>
+</form>
+</td>
+		</tr>
+		</table>
+<form method="post" action="traitement.php">
+<p>
+<label for="pseudo">Votre pseudo</label> : <input type="text" name="pseudo" id="pseudo"  placeholder="Ex: Zozor" size="30" maxlength="10" />
+<br /><br />
+<label for="pass">Votre mot de passe :</label>
+<input type="password" name="pass" id="pass" />
+</p>
+</form>
+
+<body>
+<html>
